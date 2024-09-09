@@ -1,0 +1,7 @@
+version: '2.2'
+services:
+  meta:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: peract-docker/meta
